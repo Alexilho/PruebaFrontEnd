@@ -1,0 +1,22 @@
+<!--CREADO POR CRISTIAN ALEXANDER BRAVO RUIZ-->
+<!--Github: https://github.com/Alexilho-->
+<!--Correo Electronico: alexilho96@gmail.com-->
+
+<div style="text-align:center">
+<h1>
+  Sistema de listado de peliculas
+</h1>
+
+</div>
+<hr>
+<div class="container col-auto text-center" >
+  <button (click)="Listar()" class="btn btn-outline-success" loading="lazy">Mostrar lista</button>
+  <button (click)="Buscar()" class="btn btn-outline-success" style="margin-left: 15px" loading="lazy">Buscar</button>    >
+</div>
+<hr>
+<div class="container col-auto text-center" >
+  <button (click)="Crear()" class="btn btn-outline-success" loading="lazy">Crear</button>
+  <button (click)="Top()" class="btn btn-outline-success" style="margin-left: 15px" loading="lazy">Consultar Top</button>    >
+</div>
+<hr>
+<router-outlet></router-outlet>

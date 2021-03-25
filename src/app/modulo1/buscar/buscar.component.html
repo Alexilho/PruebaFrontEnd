@@ -1,0 +1,45 @@
+<!--CREADO POR CRISTIAN ALEXANDER BRAVO RUIZ-->
+<!--Github: https://github.com/Alexilho-->
+<!--Correo Electronico: alexilho96@gmail.com-->
+
+<div class="container col-md-6">
+    <div class="card col-auto text-center">
+         <h3>Busqueda de peliculas</h3>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <!--Se utiliza esta opción para la busqueda [(ngModel)="filterPost"]-->
+                <input type="text" class="form-control" placeholder="Buscar..">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="card-body">
+        <table class="table table-hover col-auto text-center">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Calificación</th>
+                    <th>País</th>
+                </tr>
+            </thead>
+            <body>
+                <!-- se usa un *ngFor="let Pelicula of peliculas" para recuperar los datos de la lista-->
+                <!-- se usa el filter:filterPost para ejecutar el filtrado en la tabla-->
+                <tr class="text-center">
+                    <td>
+                     <!--(Pelicula.titulo)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.calificacion)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.pais)-->   
+                    </td>
+                </tr>   
+            </body>
+        </table>
+    </div>
+</div>

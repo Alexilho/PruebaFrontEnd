@@ -1,0 +1,33 @@
+<div class="container col-md-6">
+    <div class="card col-auto text-center">
+         <h3>Consulta de top de peliculas</h3>
+    </div>
+    <hr>
+    <div class="card-body">
+        <table class="table table-hover col-auto text-center">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Calificación</th>
+                    <th>País</th>
+                </tr>
+            </thead>
+            <body>
+                <!-- se acude al metodo *ngFor="let pelicula of Peliculas;
+                let i=Math.max.apply(Math, $scope.calificacion)" class="dropdown-item"
+                para capturar del maximo al minino numero en la calificación-->
+                <tr class="text-center">
+                    <td>
+                     <!--(Pelicula.titulo)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.calificacion)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.pais)-->   
+                    </td>
+                </tr>   
+            </body>
+        </table>
+    </div>
+</div>

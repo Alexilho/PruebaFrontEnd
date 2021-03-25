@@ -1,0 +1,41 @@
+<!--CREADO POR CRISTIAN ALEXANDER BRAVO RUIZ-->
+<!--Github: https://github.com/Alexilho-->
+<!--Correo Electronico: alexilho96@gmail.com-->
+
+<div class="container col-auto text-center">
+    <div class="card">
+         <h3>Peliculas actuales</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover col-auto text-center">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Calificación</th>
+                    <th>País</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <body>
+                <!-- se usa un *ngFor="let Pelicula of peliculas" para recuperar los datos de la lista-->
+                <tr class="default">
+                    <td>
+                     <!--(Pelicula.titulo)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.calificacion)-->   
+                    </td>
+                    <td>
+                     <!--(Pelicula.pais)-->   
+                    </td>
+                    <td>
+                        <!--se usa en el botón editar el metodo (click)="Editar(Pelicula)"
+                            para traer de la pelicula seleccionada la información"-->
+                        <button class="btn btn-outline-warning">Editar</button>
+                        <button class="btn btn-outline-danger" style="margin-left: 15px">Eliminar</button>
+                    </td>
+                </tr>   
+            </body>
+        </table>
+    </div>
+</div>
